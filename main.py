@@ -32,9 +32,6 @@ class get:
 na = get.stepone
 n = (f'Hello Welcome {na()}')
 s_two = {get.steptwo()}
-print(s_two)
-print(s_two, sep=' ', end='\n')
-
 s_three = {get.stepthree()}
 
 app = Flask(__name__)
